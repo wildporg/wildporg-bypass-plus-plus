@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass++ Yandex Beta
-// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/main.js
-// @version      0.2
+// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/beta/yandex-beta.js
+// @version      0.2.1
 // @description  This script lets you bypass most website blockers... With yandex.
 // @author       wildporg (https://github.com/wildporg)
 // @match        *://*/*
