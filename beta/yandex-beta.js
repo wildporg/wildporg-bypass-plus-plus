@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bypass++ Yandex Beta
-// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/beta/yandex-beta.js
-// @version      0.2.1
+// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/main.js
+// @version      0.3
 // @description  This script lets you bypass most website blockers... With yandex.
 // @author       wildporg (https://github.com/wildporg)
 // @match        *://*/*
@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 (function() {
-    //GM_setValue("googleWindow")
+    var newUrl = "https://translated.turbopages.org/proxy_u/ru-en.en.5cc5cb34-6389e872-e95eb395-74722d776562/";
     if (window.location.origin != "https://translated.turbopages.org") {
         var div = document.createElement("div");
         div.style.cssText = "position: fixed; margin-left: 49vw; background: #00000000; top: 0px; left: 0px; z-index: 10000; text-align: center;";
@@ -24,9 +24,15 @@
         div.appendChild(button)
         document.body.appendChild(div);
         function yandexPage() {
-            if (confirm("Switch to Yandex hosted page?")) {
-                var newUrl = "https://translated.turbopages.org/proxy_u/ru-en.en.5cc5cb34-6389e872-e95eb395-74722d776562/"
-                window.location.replace(newUrl+window.location.toString().replace(":/",""))
+            if (window.location.toString().includes("https://www.google.") == false && window.location.toString().includes("https://google.") == false) {
+                if (confirm("Switch to Yandex hosted page?")) {
+                    window.location.replace(newUrl+window.location.toString().replace(":/",""));
+                };
+            } else {
+                var input = prompt("Where to?");
+                if (confirm("Switch to Yandex hosted page?")) {
+                    window.location.replace(newUrl+input.replace(":/",""));
+                };
             };
         };
     } else {
