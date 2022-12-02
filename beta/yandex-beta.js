@@ -1,16 +1,18 @@
 // ==UserScript==
 // @name         Bypass++ Yandex Beta
 // @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/main.js
-// @version      0.1
+// @version      0.2
 // @description  This script lets you bypass most website blockers... With yandex.
 // @author       wildporg (https://github.com/wildporg)
 // @match        *://*/*
 // @icon         http://github.com/favicon.ico
-// @grant        none
+// @grant        GM_setValue
+// @grant        GM_getValue
 // @noframes     true
 // ==/UserScript==
 
 (function() {
+    //GM_setValue("googleWindow")
     if (window.location.origin != "https://translated.turbopages.org") {
         var div = document.createElement("div");
         div.style.cssText = "position: fixed; margin-left: 49vw; background: #00000000; top: 0px; left: 0px; z-index: 10000; text-align: center;";
@@ -28,18 +30,31 @@
             };
         };
     } else {
-        if (document.getElementById("gt-nvframe")) {
-            document.getElementById("gt-nvframe").remove();
-            document.body.style.marginTop = "0px";
+        if (GM_getValue("googleWindow")) {} else {
+            if (confirm('Do you want to have a "To Google" button at all times?')) {
+                GM_setValue("googleWindow", true);
+                window.alert("Preferences saved!");
+            } else {
+                GM_setValue("googleWindow", false);
+                window.alert("Preferences saved!");
+            };
         };
-        var pageUrl = window.location.origin.split(".")[0].split("/")[2]
-        if (pageUrl = "www-youtube-com") {
-            var a = setInterval( function() {
-                if (document.getElementById("dialog")) {
-                    document.getElementById("dialog").remove()
-                    clearInterval(a)
-                }
-            }, 100);
+        if (GM_getValue("googleWindow") == true) {
+            var googleDiv = document.createElement("div");
+            googleDiv.style.cssText = "position: fixed; z-index: 10000; top: 0px; left: 0px; margin: 1vw; background: #18B; border-radius: 1em/1em;";
+            var googleButton = document.createElement("button");
+            googleButton.innerHTML = "Back to google (without a trace!)"
+            googleButton.style.cssText = "color: #FFFFFF; font-size: 1em; border: none; background: #00000000; padding: 0.75em; padding-right: 0px;";
+            googleButton.addEventListener("click", toGoogle);
+            var closeButton = document.createElement("button");
+            closeButton.innerHTML = "×";
+            closeButton.style.cssText = "color: #FFFFFF; font-size: 1em; border: none; background: #00000000; padding: 0.75em;";
+            closeButton.addEventListener("click", closeGoogleDiv);
+            googleDiv.append(closeButton)
+            googleDiv.prepend(googleButton)
+            document.body.prepend(googleDiv);
+            function toGoogle() {window.location.replace("https://www.google.com")};
+            function closeGoogleDiv() {googleDiv.remove();};
         };
     };
 })();
