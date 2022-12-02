@@ -14,7 +14,6 @@
 
 
 - Add search bar for inputted web domains
-- Back to lesson/ Back to google button.
 
 
 - Incognito/anonymous browsing
@@ -22,6 +21,7 @@
 ## Working on...
 
 - Add Yandex translate support
+- Back to lesson/ Back to google button.
 
 
 
