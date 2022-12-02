@@ -14,7 +14,7 @@ Ok, here's that same thing but more in depth.
 
 - Installing Tampermonkey
 
-Tampermonkey is easily installed by going to your extensions store e.g Chrome web store for chrome, or microsoft web store for edge (Chrome store can also be used for edge).
+Tampermonkey is easily installed by going to your extensions store e.g Chrome Web Store for Google Chrome, or Microsoft Web Store for Microsoft Edge (Chrome Web Store can also be used for Microsoft Edge).
 
 Chrome:
 
@@ -39,7 +39,7 @@ Once Tampermonkey is installed, click the extensions button in the top right of 
 
 - Using Bypass++
 
-To use Bypass++ go to your desired website, and click the arrow at the top of the page and click ok. This will redirect you to the google hosted / google proxied page. Any url bugs or other issues please notify me here. Thanks for installing!
+To use Bypass++ go to your desired website, and click the arrow at the top of the page and click ok. This will redirect you to the google hosted / google proxied page. Any url bugs or other issues please notify me here or email me at help@wildporg.com. Thanks for installing!
 
 # Intelectual Property of wildporg. (https://github.com/wildporg) (http://wildporg.com)
 ## wildporg.com may not be available at the current time. Sorry for any inconveniences.
