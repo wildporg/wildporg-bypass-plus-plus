@@ -13,21 +13,26 @@
 
 
 
-- Add search bar for inputted web domains
 
 
 - Incognito/anonymous browsing
 
 ## Working on...
 
+- Add search bar for inputted web domains
+
+## Public testing
+
+- Add beta programme
+
 - Add Yandex translate support
-- Back to lesson/ Back to google button.
+
 
 
 
 ## Done!
 
-- Add beta programme
+- Back to lesson/ Back to google button.
 
 
 
