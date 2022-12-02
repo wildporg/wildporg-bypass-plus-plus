@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bypass++
-// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/main.js
-// @version      1.0
-// @description  This script lets you bypass most website blockers.
+// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/google.js
+// @version      1.0.1
+// @description  This script lets you bypass most website blockers... With google.
 // @author       wildporg (https://github.com/wildporg)
 // @match        *://*/*
 // @icon         http://github.com/favicon.ico
@@ -13,10 +13,10 @@
 (function() {
     if (window.location.origin.split(".")[window.location.origin.split(".").length-1] != "goog") {
             var div = document.createElement("div");
-        div.style.cssText = "position: fixed; background: #00000000; width: 100vw; top: 0px; left: 0px; z-index: 10000; text-align: center;";
+        div.style.cssText = "position: fixed; background: #00000000; margin-left: 49vw; top: 0px; left: 0px; z-index: 10000; text-align: center;";
         div.id = "wpDiv";
         var button = document.createElement("button");
-        button.style.cssText = "font-family: vedana, calibri; color: #EEE; font-size: 0.75em; background: #AA000044; border-color: #00000000; aspect-ratio: 1/1; border-radius: 5em/5em;";
+        button.style.cssText = "font-family: vedana, calibri; color: #EEE; font-size: 1vw; background: #AA000044; border-color: #00000000; aspect-ratio: 1/1; width: 2vw; border-radius: 5em/5em;";
         button.innerHTML = "↓";
         button.addEventListener("click", googlePage)
         div.appendChild(button)
