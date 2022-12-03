@@ -5,6 +5,8 @@ Bypass++ is a user script program that gives you the option of using a google ho
 
 ## How do you install it?
 
+There are two ways, using a chrome extension, and just using it in the browser. To use the chrome extension, continue reading. To use it with just a normal browser, go to the no extension page. ([./no-extension/README.md](https://github.com/wildporg/wildporg-bypass-plus-plus/tree/main/no-extension))
+
 It's pretty simple really, and there are 3 main steps.
 - Install TamperMonkey (or any user script manager)
 - Import the script
