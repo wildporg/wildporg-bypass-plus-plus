@@ -16,7 +16,7 @@ Ok, here's that same thing but more in depth.
 
 - Installing Tampermonkey
 
-Tampermonkey is easily installed by going to your extensions store e.g Chrome Web Store for Google Chrome, or Microsoft Web Store for Microsoft Edge (Chrome Web Store can also be used for Microsoft Edge).
+Tampermonkey is easily installed by going to your extensions store e.g Chrome Web Store for Google Chrome, or Microsoft Store for Microsoft Edge (Chrome Web Store can also be used for Microsoft Edge) and clicking add to browser.
 
 Chrome:
 
@@ -37,7 +37,9 @@ https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
 
 - Importing the script
 
-Once Tampermonkey is installed, click the extensions button in the top right of your browser (it may be somewhere else), then click Tampermonkey and after that dashboard. Now go to utilities, copy the script link from github and paste it in Import from url at the bottom. Click install, then install, and it should be finished!
+Once Tampermonkey is installed, click the extensions button in the top right of your browser (it may be somewhere else),
+![Puzzle Piece icon](/img/puzzle.png
+then click Tampermonkey and after that dashboard. Now go to utilities, copy the script link from github and paste it in Import from url at the bottom. Click install, then install, and it should be finished!
 
 - Using Bypass++
 
