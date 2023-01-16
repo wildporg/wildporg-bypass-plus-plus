@@ -39,7 +39,9 @@ https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
 
 Once Tampermonkey is installed, click the extensions button in the top right of your browser (it may be somewhere else),
 ![Puzzle Piece icon](/img/puzzle.png)
-then click Tampermonkey and after that dashboard. Now go to utilities, copy the script link from github and paste it in Import from url at the bottom. Click install, then install, and it should be finished!
+then click Tampermonkey and after that dashboard.
+![Tampermonkey icon](/img/tampermonkey.png)
+Now go to utilities, copy the script link from github and paste it in Import from url at the bottom. Click install, then install, and it should be finished!
 
 - Using Bypass++
 
