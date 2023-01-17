@@ -48,7 +48,10 @@ Now go to utilities,
 Copy the [script link from github](https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js), and paste it in Import from url at the bottom.
 ![Right click paste menu](/img/paste.png)
 Click install,
-Then install, and it should be finished!
+![Install button](/img/install-1.png)
+Then install,
+![Install menu button](/img/install-2.png)
+And it should be finished!
 
 - Using Bypass++
 
