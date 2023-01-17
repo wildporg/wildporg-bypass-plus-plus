@@ -43,7 +43,12 @@ Then click Tampermonkey,
 ![Tampermonkey icon](/img/tampermonkey.png)
 And after that dashboard.
 ![Dashboard icon](/img/dashboard.png)
-Now go to utilities, copy the script link from github and paste it in Import from url at the bottom. Click install, then install, and it should be finished!
+Now go to utilities,
+![Utilities button](/img/utilities.png)
+Copy the script link from github
+And paste it in Import from url at the bottom.
+Click install,
+Then install, and it should be finished!
 
 - Using Bypass++
 
