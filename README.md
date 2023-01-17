@@ -1,6 +1,6 @@
 # wildporg Bypass++
 
-#What is it?
+# What is it?
 Bypass++ is a user script program that gives you the option of using a google hosted site, a bit like a proxy to access content. It can be used in use cases such as bypassing dns blocks and general website blocking at home, work, or school.
 
 
