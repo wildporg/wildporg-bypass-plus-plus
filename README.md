@@ -21,7 +21,7 @@ Tampermonkey is easily installed by going to your extensions store e.g Chrome We
 Chrome:
 
 ```
-https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/
+https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
 ```
 
 Edge:
