@@ -46,6 +46,9 @@ And after that dashboard.
 Now go to utilities,
 ![Utilities button](/img/utilities.png)
 Copy the script link from github
+`
+https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
+`
 And paste it in Import from url at the bottom.
 Click install,
 Then install, and it should be finished!
