@@ -2,7 +2,7 @@
 
 ## How to install and use?
 
-Look at the main README.md
+Look at the main [README.md](../README.md)
 
 
 ## wildporg's comments
