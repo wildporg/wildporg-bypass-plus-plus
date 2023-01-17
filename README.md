@@ -45,11 +45,8 @@ And after that dashboard.
 ![Dashboard icon](/img/dashboard.png)
 Now go to utilities,
 ![Utilities button](/img/utilities.png)
-Copy the script link from github
-`
-https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
-`
-And paste it in Import from url at the bottom.
+Copy the [script link from github](https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js), and paste it in Import from url at the bottom.
+![Right click paste menu](/img/paste.png)
 Click install,
 Then install, and it should be finished!
 
