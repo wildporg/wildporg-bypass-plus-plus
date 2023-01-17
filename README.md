@@ -58,7 +58,9 @@ And it should be finished!
 
 - Using Bypass++
 
-To use Bypass++ go to your desired website, and click the arrow at the top of the page and click ok. This will redirect you to the google hosted/proxied page. Any url bugs or other issues please notify me here or email me at help@wildporg.com. Thanks for installing!
+To use Bypass++ go to your desired website, and click the arrow at the top of the page and click ok.
+![Arrow button](/img/arrow.png)
+This will redirect you to the google hosted/proxied page. Any url bugs or other issues please notify me here or email me at help@wildporg.com. Thanks for installing!
 
 # Intelectual Property of wildporg. (https://github.com/wildporg) (http://wildporg.com)
 ## wildporg.com may not be available at the current time. Sorry for any inconveniences.
