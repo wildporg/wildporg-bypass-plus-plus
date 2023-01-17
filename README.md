@@ -1,11 +1,13 @@
 # wildporg Bypass++
 
-## What is it?
+#What is it?
 Bypass++ is a user script program that gives you the option of using a google hosted site, a bit like a proxy to access content. It can be used in use cases such as bypassing dns blocks and general website blocking at home, work, or school.
 
-## How do you install it?
 
-There are two ways, using a chrome extension, and just using it in the browser. To use the chrome extension, continue reading. To use it with just a normal browser, go to the no extension page. ([./no-extension/](https://github.com/wildporg/wildporg-bypass-plus-plus/tree/main/no-extension))
+<details>
+<summary>How do you install it? </summary>
+
+There are two ways, using a chrome extension, and just using it in the browser. To use the chrome extension, continue reading. To use it with just a normal browser, go to the [no extension page](/no-extension)
 
 It's pretty simple really, and there are 3 main steps.
 - Install TamperMonkey (or any user script manager)
@@ -52,10 +54,11 @@ Click install,
 Then install,
 ![Install menu button](/img/install-2.png)
 And it should be finished!
+</details>
 
 - Using Bypass++
 
-To use Bypass++ go to your desired website, and click the arrow at the top of the page and click ok. This will redirect you to the google hosted / google proxied page. Any url bugs or other issues please notify me here or email me at help@wildporg.com. Thanks for installing!
+To use Bypass++ go to your desired website, and click the arrow at the top of the page and click ok. This will redirect you to the google hosted/proxied page. Any url bugs or other issues please notify me here or email me at help@wildporg.com. Thanks for installing!
 
 # Intelectual Property of wildporg. (https://github.com/wildporg) (http://wildporg.com)
 ## wildporg.com may not be available at the current time. Sorry for any inconveniences.
