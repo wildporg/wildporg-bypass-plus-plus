@@ -12,6 +12,9 @@
 // ==/UserScript==
 
 (function() {
+    if (window.location.href == "http://wildporg.com/products/bypass++/") {
+        installed();
+    };
     if (window.location.origin.split(".")[window.location.origin.split(".").length-1] != "goog") {
             var div = document.createElement("div");
         div.style.cssText = "position: fixed; background: #00000000; margin-left: 49vw; top: 0px; left: 0px; z-index: 10000; text-align: center;";
