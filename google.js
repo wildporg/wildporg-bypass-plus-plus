@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Bypass++
 // @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/
-// @downloadURL  https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
-// @updateURL    https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
-// @version      1.1.2
+// @version      1.1.3
 // @description  This script lets you bypass most website blockers... With google.
 // @author       wildporg (https://github.com/wildporg)
+// @downloadURL  https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
+// @updateURL    https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
+// @run-at document-end
 // @match        *://*/*
 // @icon         http://github.com/favicon.ico
 // @grant        GM_setValue
@@ -14,6 +15,7 @@
 // ==/UserScript==
 
 (function() {
+    //GM.deleteValue("googleWindow");
     if (window.location.href == "http://wildporg.com/products/bypass++/") {
         installed();
     };
@@ -44,7 +46,7 @@
             };
         };
     } else {
-        if (GM_getValue("googleWindow")) {} else {
+        if (GM_getValue("googleWindow") == null) {
             if (confirm('Do you want to have a "To Google" button at all times?')) {
                 GM_setValue("googleWindow", true);
                 window.alert("Preferences saved!");
@@ -52,8 +54,7 @@
                 GM_setValue("googleWindow", false);
                 window.alert("Preferences saved!");
             };
-        };
-        if (GM_getValue("googleWindow") == true) {
+        } else if (GM_getValue("googleWindow") == true) {
             var googleDiv = document.createElement("div");
             googleDiv.style.cssText = "position: fixed; z-index: 10000; top: 0px; left: 0px; margin: 1vw; background: #18B; border-radius: 1em/1em;";
             var googleButton = document.createElement("button");
