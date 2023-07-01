@@ -15,7 +15,6 @@
 // ==/UserScript==
 
 (function() {
-    //GM.deleteValue("googleWindow");
     if (window.location.href == "http://wildporg.com/products/bypass++/") {
         installed();
     };
