@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Bypass++
-// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/blob/main/google.js
-// @version      1.1.1
+// @namespace    https://github.com/wildporg/wildporg-bypass-plus-plus/
+// @downloadURL  https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
+// @updateURL    https://github.com/wildporg/wildporg-bypass-plus-plus/raw/main/google.js
+// @version      1.1.2
 // @description  This script lets you bypass most website blockers... With google.
 // @author       wildporg (https://github.com/wildporg)
 // @match        *://*/*
