@@ -1,6 +1,6 @@
 # wildporg Bypass++
 
-Disclaimer: This does not work on mobile devices. If you would like to bypass a dns block on your phone/tablet then search up how to change your dns and change it dns to 1.1.1.1(Cloudflare) or donwload the free 1.1.1.1 app at [Cloudflare](1.1.1.1).
+Disclaimer: This does not work on mobile devices. If you would like to bypass a dns block on your phone/tablet then search up how to change your dns and change it dns to 1.1.1.1(Cloudflare) or donwload the free 1.1.1.1 app at [Cloudflare](https://1.1.1.1).
 
 ## What is it?
 Bypass++ is a user script program that gives you the option of using a google hosted site, a bit like a proxy to access content. It can be used in use cases such as bypassing dns blocks and general website blocking at home, work, or school.
